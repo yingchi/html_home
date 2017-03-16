@@ -484,9 +484,10 @@ ol.type li a:hover {
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
-	font-size: 14px;
+	font-size: 13px;
 	/*text-transform: uppercase;*/
 	text-align: center;
+	margin-top: 10px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	float: right;
@@ -694,8 +695,11 @@ header .intro-text {
 	left: 7%;
 } 
 .timeline>li {
-	margin-bottom: 100px;
 	min-height: 100px;
+	/*margin-bottom: 50px;*/
+	width: 80%;
+	margin: auto;
+	margin-bottom: 100px;
 }
 .timeline>li .timeline-panel {
 	float: left;
@@ -734,24 +738,26 @@ header .intro-text {
 } 
 .timeline>li {
 	min-height: 150px;
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
+	width: 80%;
+	margin: auto;
 }
 .timeline>li .timeline-panel {
 	float: left;
-	padding: 0 30px 70px 180px;
+	padding: 0 30px 70px 220px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	float: right;
-	padding: 0 30px 70px 180px;
+	padding: 0 30px 70px 220px;
 	text-align: left;
 }
 .timeline>li .timeline-image {
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 30px;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 26px;
 }
 }
@@ -762,23 +768,25 @@ header .intro-text {
 }
 .timeline>li {
 	min-height: 170px;
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
+	width: 80%;
+	margin: auto;
 }
 .timeline>li .timeline-panel {
 	float: left;
-	padding: 0 30px 80px 180px;
+	padding: 0 30px 80px 220px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	float: right;
-	padding: 0 30px 80px 180px;
+	padding: 0 30px 80px 220px;
 	text-align: left;
 }
 .timeline>li .timeline-image {
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 40px;
+	margin-top: 30px;
 	font-weight: 400;
 }
 }
