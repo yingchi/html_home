@@ -717,7 +717,7 @@ header .intro-text {
 	/*margin-left: -50px; */
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 16px;
+	margin-top: 20px;
 	line-height: 18px;
 	font-weight: 400;
 }
@@ -756,7 +756,7 @@ header .intro-text {
 	height: 130px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 30px;
+	margin-top: 26px;
 	font-size: 17px;
 	line-height: 26px;
 }
@@ -786,7 +786,7 @@ header .intro-text {
 	height: 130px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 30px;
+	margin-top: 28px;
 	font-weight: 400;
 }
 }
