@@ -692,7 +692,7 @@ header .intro-text {
 	padding-bottom: 110px;
 }
 .timeline:before {
-	left: 7%;
+	left: 17%;
 } 
 .timeline>li {
 	min-height: 100px;
@@ -703,11 +703,11 @@ header .intro-text {
 }
 .timeline>li .timeline-panel {
 	float: left;
-	padding: 0 30px 20px 120px;
+	padding: 0 30px 20px 140px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	float: right;
-	padding: 0 30px 20px 120px;
+	padding: 0 30px 20px 140px;
 	text-align: left;
 }
 .timeline>li .timeline-image {
@@ -734,7 +734,7 @@ header .intro-text {
 	margin: 10px 0 0px;
 }
 .timeline:before {
-	left: 8%;
+	left: 17%;
 } 
 .timeline>li {
 	min-height: 150px;
@@ -764,7 +764,7 @@ header .intro-text {
 
 @media(min-width:1200px) {
 .timeline:before {
-	left: 7%;
+	left: 16%;
 }
 .timeline>li {
 	min-height: 170px;
