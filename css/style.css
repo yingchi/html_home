@@ -63,9 +63,7 @@ ul, ol {
 .clearfix {
 	display: block;
 }
-/* 
-Added by Yingchi
-*/
+/* Added by Yingchi */
 .row-skill {
     display: flex;
     flex-wrap: wrap;
@@ -210,15 +208,33 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	background: url(../img/dark-edges.png) repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	position: relative;
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
+}
+.intro > .container > div > div > a {
+	position:relative;
+    z-index:1;
+}
+/* particle.js */
+.particles {
+	display: block;
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	background-image: url("");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	top: 0px;
+  	left: 0px;
 }
 /* About Section */
 #about {
