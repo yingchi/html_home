@@ -78,7 +78,7 @@ function initTest() {
     if (options.keyboardSupport && !disableKeyboard) {
         addEvent("keydown", keydown);
     }
-}
+};
 
 /**
  * Sets up scrolls array, determines if frames are involved.
@@ -113,6 +113,16 @@ function init() {
             (body.offsetHeight <= windowHeight || 
              html.offsetHeight <= windowHeight)) {
 
+        var refresh = function () {
+            if (pendingRefresh) return; // could also be: clearTimeout(pendingRefresh);
+            pendingRefresh = setTimeout(function () {
+                if (isExcluded) return; // could be running after cleanup
+                fullPageElem.style.height = '0';
+                fullPageElem.style.height = root.scrollHeight + 'px';
+                pendingRefresh = null;
+            }, 500); // act rarely to stay fast
+        };
+        
         html.style.height = 'auto';
         setTimeout(refresh, 10);
 
